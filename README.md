@@ -1,7 +1,7 @@
 # Password-Maker
 Random Şifre Oluşturucu
 
-```sh
+```Shell
 pkg install git -y
 
 git clone https://github.com/CybertronHack/Password-Maker
