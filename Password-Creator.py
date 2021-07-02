@@ -21,10 +21,14 @@ def list():
 	dosya = open("data.txt", "a")
 	pf = pd.read_table("data.txt", header=None,  names=["Sebep(ler)", "Şifre(ler)"])
 	print(pf)
+
+def cik():
+	quit()
 	
 banner = """
-1 )  Create Password
-2 )  Listing Passwords
+1 )  Sifre Oluştur
+2 )  Şifreleri Listele
+3 )  Çıkış Yap
 
 Bir Protokol Numarası Giriniz : 
 """
@@ -35,3 +39,6 @@ if veri == 1:
 	
 if veri == 2:
 	list()
+
+if veri == 3:
+	cik()
