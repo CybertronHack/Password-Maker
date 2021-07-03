@@ -6,7 +6,7 @@ pkg install git -y
 
 git clone https://github.com/CybertronHack/Password-Maker
 
-cd Password-Creator
+cd Password-Maker
 
 bash start.sh
 ```
